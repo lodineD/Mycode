@@ -1,0 +1,5 @@
+D:\C#\程序\Snake\Snake\obj\Debug\Snake.csproj.AssemblyReference.cache
+D:\C#\程序\Snake\Snake\obj\Debug\Snake.Form1.resources
+D:\C#\程序\Snake\Snake\obj\Debug\Snake.Properties.Resources.resources
+D:\C#\程序\Snake\Snake\obj\Debug\Snake.csproj.GenerateResource.cache
+D:\C#\程序\Snake\Snake\obj\Debug\Snake.csproj.CoreCompileInputs.cache

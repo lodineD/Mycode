@@ -1,0 +1,13 @@
+G:\c实验\贪吃蛇\贪吃蛇\bin\Release\贪吃蛇.exe.config
+G:\c实验\贪吃蛇\贪吃蛇\bin\Release\贪吃蛇.exe
+G:\c实验\贪吃蛇\贪吃蛇\bin\Release\贪吃蛇.pdb
+G:\c实验\贪吃蛇\贪吃蛇\obj\Release\贪吃蛇.csprojResolveAssemblyReference.cache
+G:\c实验\贪吃蛇\贪吃蛇\obj\Release\贪吃蛇.Form1.resources
+G:\c实验\贪吃蛇\贪吃蛇\obj\Release\贪吃蛇.Properties.Resources.resources
+G:\c实验\贪吃蛇\贪吃蛇\obj\Release\贪吃蛇.csproj.GenerateResource.Cache
+G:\c实验\贪吃蛇\贪吃蛇\obj\Release\贪吃蛇.exe
+G:\c实验\贪吃蛇\贪吃蛇\obj\Release\贪吃蛇.pdb
+G:\c实验\贪吃蛇\贪吃蛇\obj\Release\Interop.MediaPlayer.dll
+G:\c实验\贪吃蛇\贪吃蛇\obj\Release\Interop.WMPLib.dll
+G:\c实验\贪吃蛇\贪吃蛇\obj\Release\Interop.WMPNSSCI.dll
+G:\c实验\贪吃蛇\贪吃蛇\obj\Release\贪吃蛇.csproj.ResolveComReference.cache

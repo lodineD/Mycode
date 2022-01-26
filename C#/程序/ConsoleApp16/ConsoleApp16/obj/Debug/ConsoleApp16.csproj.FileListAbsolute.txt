@@ -1,0 +1,7 @@
+D:\C#\程序\ConsoleApp16\ConsoleApp16\obj\Debug\ConsoleApp16.csproj.AssemblyReference.cache
+D:\C#\程序\ConsoleApp16\ConsoleApp16\obj\Debug\ConsoleApp16.csproj.CoreCompileInputs.cache
+D:\C#\程序\ConsoleApp16\ConsoleApp16\bin\Debug\ConsoleApp16.exe.config
+D:\C#\程序\ConsoleApp16\ConsoleApp16\bin\Debug\ConsoleApp16.exe
+D:\C#\程序\ConsoleApp16\ConsoleApp16\bin\Debug\ConsoleApp16.pdb
+D:\C#\程序\ConsoleApp16\ConsoleApp16\obj\Debug\ConsoleApp16.exe
+D:\C#\程序\ConsoleApp16\ConsoleApp16\obj\Debug\ConsoleApp16.pdb

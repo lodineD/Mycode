@@ -1,0 +1,13 @@
+D:\C#\程序\Text\Text\bin\Debug\Text.exe.config
+D:\C#\程序\Text\Text\bin\Debug\Text.exe
+D:\C#\程序\Text\Text\bin\Debug\Text.pdb
+D:\C#\程序\Text\Text\obj\Debug\Text.csproj.CoreCompileInputs.cache
+D:\C#\程序\Text\Text\obj\Debug\Text.exe
+D:\C#\程序\Text\Text\obj\Debug\Text.pdb
+D:\C#\程序\扫雷\Text\bin\Debug\Text.exe.config
+D:\C#\程序\扫雷\Text\bin\Debug\Text.exe
+D:\C#\程序\扫雷\Text\bin\Debug\Text.pdb
+D:\C#\程序\扫雷\Text\obj\Debug\Text.csproj.AssemblyReference.cache
+D:\C#\程序\扫雷\Text\obj\Debug\Text.csproj.CoreCompileInputs.cache
+D:\C#\程序\扫雷\Text\obj\Debug\Text.exe
+D:\C#\程序\扫雷\Text\obj\Debug\Text.pdb
