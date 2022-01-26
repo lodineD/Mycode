@@ -1,6 +1,6 @@
 package package4.demo1;
 
-import demo2.Student;
+import package4.demo2.Student;
 
 public class StaticField {
     public static void main(String[] args) {
@@ -14,4 +14,5 @@ public class StaticField {
         student2.method();
     }
 // 实现Id的自加; static 的应用
+// 静态变量无法使用动态变量
 }
