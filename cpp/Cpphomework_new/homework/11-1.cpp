@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstring>
 
 using namespace std;
 typedef struct LNode
@@ -46,8 +47,29 @@ void showLink(Link *l)
         head = head->next;
     }
     cout << endl
-         << l->length;
+         << l->length << endl;
     return;
+}
+
+void _delete(Link *l, char a)
+{
+    for (int i = 0; i < l->length; i++)
+    {
+        Link *head = l;
+        Link *p = l;
+        head = head->next;
+        while (head)
+        {
+            if (head->data == a)
+            {
+                p->next = head->next;
+                l->length--;
+                break;
+            }
+            head = head->next;
+            p = p->next;
+        }
+    }
 }
 
 int main()
@@ -55,6 +77,14 @@ int main()
     Link *link = creatLink();
     char da[200];
     scanf("%[^\n]", da);
+    for (int i = 0; i < strlen(da); i++)
+    {
+        addLink(link, da[i]);
+    }
+    showLink(link);
+    char B;
+    cin >> B;
+    _delete(link, B);
     showLink(link);
     return 0;
 }

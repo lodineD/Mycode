@@ -124,3 +124,13 @@ input:-ms-input-placeholder {
 body {
     font-family: "微软雅黑";
 }
+
+#biaoge{
+    /* align: center; */
+    border: 1px;
+    /* cellpadding=center; */
+    /* cellspacing="0"; */
+    width: 650px;
+    height: 250px;
+    padding: 20px;
+}

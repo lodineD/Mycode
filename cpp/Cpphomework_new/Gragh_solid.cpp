@@ -2,9 +2,12 @@
 
 using namespace std;
 
+int const MAX_numVertex = 20;
+
 class Gragm
 {
 private:
+    bool Visited[MAX_numVertex];
     int **AdjMatrix;
     int numVertex; // 定点个数
     int numEdge;   // 边的个数
@@ -14,7 +17,10 @@ public:
     int weight(int from, int to); // 取出权重
     void setEdge(int from, int to, int weight);
     void delEdge(int from, int to);
-    int FirstAdj(int oneVertex); //取出该节点与其最近的节点
+    int nextAdj(int oneVertex); //取出该节点与其最近的节点（用于DFS和BFS搜索）
+    // int nextAdj(int oneVertex);  // 用于DFS和BFS搜索
+    void DFSr();    // 定义bool数组，检查节点是否已遍历
+    void DFS(int V); // V为节点
 };
 
 Gragm::Gragm(int numVert)
@@ -67,7 +73,7 @@ void Gragm::delEdge(int from, int to)
     AdjMatrix[from][to] = 0;
 }
 
-int Gragm::FirstAdj(int oneVertex)
+int Gragm::nextAdj(int oneVertex)
 {
     for (int i = 0; i < numVertex; i++)
     {
@@ -79,8 +85,36 @@ int Gragm::FirstAdj(int oneVertex)
     return -1;
 }
 
+void Gragm::DFSr()
+{
+    for (int i = 0; i < numVertex; i++)
+    {
+        Visited[i] = false;
+    }
+    for (int j = 0; j < numVertex; j++)
+    {
+        if (!Visited[j])
+        {
+            DFS(j);
+        }
+    }
+}
+
+void Gragm::DFS(int v)
+{
+    cout << v << endl; // 访问节点
+    Visited[v] = true;
+    for (int i = v; i >= 0; i = nextAdj(v))
+    {
+        if (!Visited[i])
+        {
+            DFS(i);
+        }
+    }
+}
+
 int main()
 {
-    
+
     return 0;
 }

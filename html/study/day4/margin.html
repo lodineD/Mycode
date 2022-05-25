@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>盒子外边距margin</title>
+    <style>
+        /* margin 的复写模式与padding一致 */
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+        /* 外边距塌陷：当上块元素为margin-bottom，下块元素为margin-top，则取其中的最大值 */
+        .one {
+            display: inline-block;
+            margin: auto;
+            text-align: center;
+        } 
+
+        .two{
+            display: inline-block;
+            /* margin-left: 20px; */
+            margin: auto;
+
+        }
+
+        .three{
+            display: inline-block;
+            /* margin-left: 20px; */
+            margin: auto;
+
+        }
+
+        .four{
+            display: inline-block;
+            /* margin-left: 20px;q */
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="one">asdfasdfa</div>
+    <div class ="two">qwerqwerqwrwerq</div>
+    <div class ="three">qwerqwerqwrwerq</div>
+    <div class ="four">qwerqwerqwrwerq</div>
+</body>
+
+</html>
