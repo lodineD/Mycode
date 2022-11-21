@@ -1,0 +1,10 @@
+^F:\作业集锦\计算机图形学\CODE\CMAKEFILES\CBD016B89075390FAD0D11F2409B287A\GENERATE.STAMP.RULE
+setlocal
+D:\cmake-3.24.1-windows-x86_64\bin\cmake.exe -SF:/作业集锦/计算机图形学/code -BF:/作业集锦/计算机图形学/code --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/作业集锦/计算机图形学/code/main.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

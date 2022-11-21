@@ -1,0 +1,21 @@
+﻿  Camera.cpp
+F:\作业集锦\计算机图形学\code\include\Angel.h(64,47): warning C4305: “初始化”: 从“double”到“GLfloat”截断
+F:\作业集锦\计算机图形学\code\include\Camera.h(49,14): warning C4305: “初始化”: 从“double”到“float”截断
+F:\作业集锦\计算机图形学\code\Camera.cpp(115,24): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+F:\作业集锦\计算机图形学\code\Camera.cpp(117,24): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+F:\作业集锦\计算机图形学\code\Camera.cpp(120,32): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+F:\作业集锦\计算机图形学\code\Camera.cpp(186,16): warning C4305: “+=”: 从“double”到“float”截断
+F:\作业集锦\计算机图形学\code\Camera.cpp(190,16): warning C4305: “-=”: 从“double”到“float”截断
+  main.vcxproj -> F:\作业集锦\计算机图形学\code\Debug\main.exe

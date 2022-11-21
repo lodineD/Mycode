@@ -1,0 +1,3 @@
+F:/作业集锦/计算机图形学/code/CMakeFiles/main.dir
+F:/作业集锦/计算机图形学/code/CMakeFiles/ALL_BUILD.dir
+F:/作业集锦/计算机图形学/code/CMakeFiles/ZERO_CHECK.dir
