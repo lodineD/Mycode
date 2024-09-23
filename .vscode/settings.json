@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "*.html": "html",
+        "atomic": "c",
+        "bitset": "c",
+        "charconv": "c",
+        "cstring": "c",
+        "regex": "c",
+        "vector": "c",
+        "xmemory": "c",
+        "xstring": "c",
+        "xutility": "c"
+    }
+}
